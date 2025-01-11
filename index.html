@@ -1,10 +1,10 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SipCycle</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <h1>SipCycle</h1>
@@ -16,21 +16,26 @@
             Would you like to know the recommended daily intake for <b>water</b> and a specific schedule so you can meet a daily goal? <br>
             If you would, then this website is the perfect thing for you. With this, you will be able to meet those daily goals easily for healthy living.
         </p>
-    </section> 
+    </section>
     <ul>
         <h4>Plans</h4>
         <li>
             4 litres a day
-            <a href="4litreplans.html">View the 4 litre plans here</a>
+            <a href="4litreplans.html" onclick="alert('You clicked on 4 Litres Plan')">View the 4 litre plans here</a>
         </li>
         <li>
             3 litres a day
-            <a href="3litreplans.html">View the 3 litre plans here</a>
+            <a href="3litreplans.html" onclick="alert('You clicked on 3 Litres Plan')">View the 3 litre plans here</a>
         </li>
         <li>
             3.5 litres a day
-            <a href="3.5litreplans.html">View the 3.5 litre plans here</a>
+            <a href="3.5litreplans.html" onclick="alert('You clicked on 3.5 Litres Plan')">View the 3.5 litre plans here</a>
         </li>
     </ul>
+
+    <script>
+        // This is inline JavaScript that runs when the page loads
+        console.log("SipCycle page loaded!");
+    </script>
 </body>
 </html>
